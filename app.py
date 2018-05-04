@@ -5,7 +5,7 @@ from rss import *
 
 from urllib.parse import urlparse, urlencode
 
-class HelloWorld(object):
+class RSSConvert(object):
     @cherrypy.expose
     def default(self, *args, **params):
         base_path = "https://newsapi.org"
@@ -27,4 +27,4 @@ config = {
     }
 }
 
-cherrypy.quickstart(HelloWorld(), '/', config=config)
+cherrypy.quickstart(RSSConvert(), '/', config=config)
