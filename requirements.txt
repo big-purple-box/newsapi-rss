@@ -1,0 +1,4 @@
+CherryPy==14.2.0
+requests==2.18.4
+rfeed==1.1.1
+python-dateutil==2.7.2
